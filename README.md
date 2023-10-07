@@ -2,6 +2,8 @@ Erlang [ACME (RFC8555)](https://tools.ietf.org/html/rfc8555) implementation that
 
 This application requires that all connecting clients uses [TLS SNI](https://en.wikipedia.org/wiki/Server_Name_Indication), none supporting clients are immediately disconnected.
 
+**N.B.** this is not directly usable, please read [why this has been published](https://erlangforums.com/t/https-forward-proxy-in-erlang-mitm-man-in-the-middle/2936/2?u=jimdigriz)
+
 # Usage
 
 ## `sys.config`
