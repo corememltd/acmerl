@@ -1,0 +1,23 @@
+%%% Erlang ACME (RFC8555) Application
+%%% Copyright (C) 2020, coreMem Limited <info@coremem.com>
+%%% SPDX-License-Identifier: AGPL-3.0-only
+
+{application,acme,[
+	{description,"ACME (RFC8555) Implementation"},
+	{vsn,"0.1.0"},
+	{registered,[]},
+	{mod,{acme_app,[]}},
+	{applications,[
+		kernel,
+		stdlib,
+		inets,
+		public_key,
+		ssl,
+		jsone
+	]},
+	{env,[]},
+	{modules,[]},
+	{licenses,["AGPL-3.0-only"]},
+	{maintainers,["coreMem Limited <info@coremem.com>"]},
+	{links,[]}
+]}.
